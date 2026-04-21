@@ -1085,7 +1085,7 @@ static const NSTimeInterval LSTPopViewDefaultDuration = -1.0f;
                     [tPopView.container addSubview:tPopView];
                     [LSTPopViewM().showList addPointer:(__bridge void * _Nullable)tPopView];
                 }
-                [tPopView popWithPopStyle:LSTPopStyleFade duration:0.25 isOutStack:YES];
+                [tPopView popWithPopStyle:LSTPopStyleNO duration:0.0 isOutStack:YES];
             }
         });
     }
